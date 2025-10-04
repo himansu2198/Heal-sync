@@ -1,0 +1,90 @@
+# Node modules (project root and any subfolders)
+node_modules/
+**/node_modules/
+
+# Environment / secrets
+.env
+.env.* 
+.env.local
+local.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-debug.log.*
+logs/
+*.log
+
+# Build / output
+dist/
+build/
+out/
+.next/
+.healthcache/
+coverage/
+coverage-final.json
+/.parcel-cache
+/.vite
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs / editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.iml
+*.logseq
+
+# Caches / temp
+.cache/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Package archives
+*.tgz
+package-lock.json.darwin   # if any OS-specific lock leftovers
+
+# Database / data dumps
+*.sqlite
+*.sqlite3
+*.db
+dump/
+mongodb/
+mongod.lock
+
+# SSH / keys / certificates
+*.pem
+*.key
+*.crt
+
+# Misc
+jspm_packages/
+*.seed
+
+# Frontend/backend subprojects (explicit)
+healthcaresystem/node_modules/
+healthcaresystem/build/
+healthcaresystem/.env
+healthcaresystem2/node_modules/
+healthcaresystem2/build/
+healthcaresystem2/.env
+
+# Prevent committing large or generated binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# End of file
+public/images/*.zip
